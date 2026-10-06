@@ -13,7 +13,7 @@ Get a Telegram message every time your server boots.
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/realChriss/bootcall/main/install.sh | sudo bash
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/realChriss/bootcall/main/install.sh)"
 ```
 
 The installer asks for your bot token and chat id.
@@ -55,8 +55,8 @@ Requires a Linux server with systemd and curl.
 You can also pass the token and chat id directly, so the installer doesn't ask:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/realChriss/bootcall/main/install.sh \
-  | sudo bash -s -- --token <bot token> --chat-id <chat id>
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/realChriss/bootcall/main/install.sh)" \
+  -- --token <bot token> --chat-id <chat id>
 ```
 
 ## License
