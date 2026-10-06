@@ -30,7 +30,7 @@ sudo systemctl start bootcall
 
 ## Update
 
-Run the install command again. The token and chat id you set before are kept.
+When a new version is out, the boot message tells you. Run the install command again to update. The token and chat id you set before are kept.
 
 ## Uninstall
 
